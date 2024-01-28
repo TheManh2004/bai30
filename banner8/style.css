@@ -58,3 +58,6 @@
 .container .listcaption .listcaptioniem img:hover{
     transform: scale(0.8);
 }
+.container .containerlogo :hover{
+    color: aqua;
+}

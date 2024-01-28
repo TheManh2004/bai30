@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.container img {
+    width: 100%;
+    height: 500px;
+}
+.container .listcaption {
+    display: flex;
+    right: 5%;
+    position: absolute;
+    width: 50%;
+    gap: 20px;
+    margin-top: 10px;
+}
+.container .listcaption .itemcaption {
+    text-align: center;
+    width: 33%;
+}
+.container .listcaption .itemcaption i {
+    font-size: 20px;
+    /* color: #fff; */
+}
+.container .listcaption .itemcaption h2 {
+    margin: 10px 0;
+}
+.container .caption {
+    position: absolute;
+    color: rgb(29, 81, 29);
+    bottom: 250px;
+    left: 35px;
+    font-size: 70px;
+    font-weight: 600;
+    margin-left: 130px;
+}
+.container .caption2 {
+    position: absolute;
+    bottom: 210px;
+    left: 35px;
+    font-size: 30px;
+    margin-left: 130px;
+}

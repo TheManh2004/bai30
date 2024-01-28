@@ -1,0 +1,60 @@
+.container .containerheader {
+    text-align: center;
+    position: relative;
+}
+.container .containerheader .containerlogo {
+    position: absolute;
+    top: 0;
+    right: 30px;
+    width: 80px;
+    height: 100px;
+    background-color: rgb(47, 129, 47);
+    color: #fff;
+    text-align: center;
+}
+.container .containerheader h1 {
+    color: #000;
+    font-weight: 600;
+    font-size: 30px;
+}
+.container .containerheader p {
+    font-weight: 100;
+    font-size: 25px;
+}
+.container .containerheader .containerlogo p {
+    border-bottom: 1px solid #fff;
+    width: 80%;
+    margin: auto;
+    margin-top: 60px;
+    padding-bottom: 5px;
+    font-size: 25px;
+}
+.container .listcaption {
+    padding: 0 80px;
+    margin-top: 50px;
+}
+.container .listcaption .listcaptioniems {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.container .listcaption .listcaptioniem {
+    width: 22%;
+    height: 300px;
+
+}
+.container .listcaption .listcaptioniem img {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+}
+
+.container .listcaption .listcaptioniem .listcaptioniem-small{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;   
+    padding: 0 20px;
+}
+.container .listcaption .listcaptioniem img:hover{
+    transform: scale(0.8);
+}
